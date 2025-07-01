@@ -1,0 +1,18 @@
+lastest_index: 0
+lastest:
+    servers:
+        - server_id: server-1
+          addr: 127.0.0.1:5051
+        - server_id: server-2
+          addr: 127.0.0.1:5052
+        - server_id: server-3
+          addr: 127.0.0.1:5053
+commited_index: 0
+commited:
+    servers:
+        - server_id: server-1
+          addr: 127.0.0.1:5051
+        - server_id: server-2
+          addr: 127.0.0.1:5052
+        - server_id: server-3
+          addr: 127.0.0.1:5053
