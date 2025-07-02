@@ -26,23 +26,6 @@ RAFT simplifies building reliable distributed systems like databases, key-value 
 ✅ Message-driven architecture suitable for simulations and real-world deployments
 ✅ Modular design for easy testing and embedding
 
----
-
-## 📦 Example Usage
-
-```go
-import (
-    "github.com/yourusername/raft"
-)
-
-func main() {
-    node := raft.NewNode("node-1", []string{"node-1", "node-2", "node-3"})
-    go node.Run()
-
-    // Simulate client command
-    node.Propose([]byte("set x=10"))
-}
-```
 
 ---
 
@@ -66,10 +49,10 @@ func main() {
 ## 🛠 Development Roadmap
 
 * [x] Basic RAFT consensus with leader election and log replication
-* [ ] Persistent storage support for log and state recovery
-* [ ] Dynamic cluster membership changes
+* [x] Persistent storage support for log and state recovery
+* [x] Dynamic cluster membership changes
+* [x] Detailed metrics and observability hooks
 * [ ] Snapshotting for large state machines
-* [ ] Detailed metrics and observability hooks
 
 ---
 
